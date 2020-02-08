@@ -1,0 +1,8 @@
+[docker-nightly]
+name=docker-nightly
+baseurl=https://nightly-build.github.io/docker-nightly/fedora$releasever/$basearch/
+repo_gpgcheck=0
+gpgcheck=0
+enabled=1
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt
